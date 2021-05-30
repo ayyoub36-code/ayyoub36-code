@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <script src="microOndes.js" defer></script>
+    <style>
+        * {
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+
+        #container {
+            width: 550px;
+            font-size: 22px;
+            font-family: 'cursive';
+            text-decoration: none;
+            color: #008CBA;
+            border: 2px solid aqua;
+            border-radius: 15px 15px 15px 15px;
+            background-color: black;
+            padding: 25px;
+            box-shadow: 10px 5px 5px red;
+        }
+
+        #affichage {
+            font-size: 25px;
+            font-family: 'cursive';
+
+        }
+
+        .btn {
+            border: 2px solid red;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 3px 3px 3px aqua;
+        }
+        #timer{
+            margin-left: 58px;
+        }
+        #nourriture{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Micro-ondes</h1>
+        <hr />
+        Nourriture <input type="text" id="nourriture" value="" />
+        <br />
+        Timer <input type="number" id="timer" value="0" max="10" step="1"> minutes
+        <br />
+        Puissance <input type="number" id="puissance" value="0" max="900" step="100"> Watts
+        <br />
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Stop</button>
+    </div>
+    <br><br>
+
+    <div id="affichage"></div>
+</body>
+
+</html>
