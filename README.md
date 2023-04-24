@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ayyoub36-code
 - 👀 I’m interested in developpement 
-- 🌱 I’m currently learning php
+- 🌱 I’m currently learning Angular
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ayyoub36@hotmail.fr
 
